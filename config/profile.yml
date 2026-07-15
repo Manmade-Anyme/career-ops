@@ -1,0 +1,70 @@
+# Career-Ops Profile Configuration — Satendra Sharma
+# Single source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Satendra Sharma"
+  email: "sharmasatendr123next@gmail.com"
+  phone: "+91-7619045455"
+  wechat: ""
+  location: "Bengaluru, India"
+  linkedin: "linkedin.com/in/satendra-sharma"
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+  photo: ""
+
+target_roles:
+  primary:
+    - "Financial Research Analyst"
+    - "Financial Analyst"
+    - "Credit Analyst"
+    - "Investment Banking Analyst"
+  archetypes:
+    - name: "Financial Research Analyst"
+      level: "Analyst"
+      fit: "primary"
+    - name: "Financial Analyst (FP&A / Corporate Finance)"
+      level: "Analyst"
+      fit: "primary"
+    - name: "Credit Analyst / Credit Research"
+      level: "Analyst"
+      fit: "primary"
+    - name: "Investment Banking Analyst"
+      level: "Analyst"
+      fit: "primary"
+    - name: "Middle Office / Trade Lifecycle Analyst"
+      level: "Analyst"
+      fit: "secondary"
+    - name: "Equity/Fixed Income Research Associate"
+      level: "Associate"
+      fit: "adjacent"
+
+narrative:
+  headline: "Finance professional — trade lifecycle, credit research, and financial analysis"
+  exit_story: "MBA (Finance) with IIM Ranchi Executive PG in Investment Banking; currently in Goldman Sachs FICC middle office, moving toward core financial/credit research and IB analyst roles."
+  superpowers:
+    - "Credit risk evaluation and borrower financial analysis"
+    - "WACC / cost of capital / DCF modeling (CAPM, DDM, NPV)"
+    - "Trade lifecycle management and reconciliation (FX & derivatives)"
+    - "Bloomberg Terminal + Excel financial modeling"
+  proof_points:
+    - name: "Credit Research — Manila Water Company"
+      url: ""
+      hero_metric: "Full creditworthiness assessment: leverage, debt coverage, liquidity"
+    - name: "SIP mutual fund analysis (IIM Kozhikode acceptance letter)"
+      url: ""
+      hero_metric: "A+ graded Sharpe/Treynor/Jensen's Alpha fund performance study"
+
+compensation:
+  target_range: "₹8-15 LPA"
+  currency: "INR"
+  minimum: "₹6 LPA"
+  location_flexibility: "Bengaluru preferred; open to Hyderabad, Mumbai, Gurgaon, remote"
+
+location:
+  country: "India"
+  city: "Bengaluru"
+  timezone: "IST"
+  visa_status: "Indian citizen; no sponsorship needed for India roles"
+
+spend_tier: standard

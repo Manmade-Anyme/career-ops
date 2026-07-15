@@ -1,0 +1,197 @@
+# Portal Scanner Configuration — Satendra Sharma (finance roles, India)
+# NOTE: In this remote environment direct API calls to job boards are blocked
+# by network policy; companies below carry both `api:` (for local runs) and
+# careers_url (for WebSearch/Playwright fallback).
+
+title_filter:
+  positive:
+    - "Financial Analyst"
+    - "Finance Analyst"
+    - "Financial Research"
+    - "Research Analyst"
+    - "Credit Analyst"
+    - "Credit Research"
+    - "Credit Risk"
+    - "Investment Banking"
+    - "Investment Analyst"
+    - "Equity Research"
+    - "FP&A"
+    - "Corporate Finance"
+    - "Treasury Analyst"
+    - "Valuation"
+    - "M&A Analyst"
+  negative:
+    - "Software"
+    - "Engineer"
+    - "Developer"
+    - "Intern"
+    - "Director"
+    - "VP"
+    - "Vice President"
+    - "Head of"
+    - "Principal"
+    - "Staff"
+
+location_filter:
+  always_allow:
+    - "India"
+    - "Bengaluru"
+    - "Bangalore"
+    - "Hyderabad"
+    - "Mumbai"
+    - "Gurgaon"
+    - "Gurugram"
+    - "Noida"
+    - "Pune"
+    - "Chennai"
+  allow:
+    - "Remote"
+    - "India"
+  block:
+    - "United States"
+    - "United Kingdom"
+    - "Germany"
+    - "Singapore"
+    - "Australia"
+
+tracked_companies:
+  # -- Fintech / financial services with public ATS boards (India presence) --
+  - name: Razorpay
+    careers_url: https://razorpay.com/jobs/
+    api: https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs
+    enabled: true
+  - name: PhonePe
+    careers_url: https://www.phonepe.com/careers/
+    api: https://boards-api.greenhouse.io/v1/boards/phonepe/jobs
+    enabled: true
+  - name: Arcesium
+    careers_url: https://www.arcesium.com/careers
+    api: https://boards-api.greenhouse.io/v1/boards/arcesiumllc/jobs
+    notes: "D.E. Shaw spin-off; FP&A and fund accounting analyst roles in Bengaluru/Hyderabad."
+    enabled: true
+  - name: Capco
+    careers_url: https://www.capco.com/careers
+    api: https://boards-api.greenhouse.io/v1/boards/capco/jobs
+    notes: "Financial services consulting; Bengaluru office."
+    enabled: true
+  - name: Turing
+    careers_url: https://www.turing.com/jobs
+    api: https://boards-api.greenhouse.io/v1/boards/turing/jobs
+    notes: "Remote-first; posts Financial Analyst (India) roles."
+    enabled: true
+  - name: Sprinto
+    careers_url: https://jobs.lever.co/Sprinto
+    api: https://api.lever.co/v0/postings/Sprinto?mode=json
+    enabled: true
+  - name: Groww
+    careers_url: https://groww.in/careers
+    scan_method: websearch
+    scan_query: 'site:groww.in/careers "analyst"'
+    enabled: true
+  - name: CRED
+    careers_url: https://careers.cred.club
+    scan_method: websearch
+    scan_query: 'site:careers.cred.club "analyst" OR "finance"'
+    enabled: true
+  - name: Navi
+    careers_url: https://www.navi.com/careers
+    scan_method: websearch
+    scan_query: 'site:navi.com/careers "credit" OR "analyst"'
+    enabled: true
+
+  # -- Rating agencies & research (core credit/financial research employers) --
+  - name: CRISIL (S&P Global)
+    careers_url: https://www.crisil.com/en/home/careers.html
+    scan_method: websearch
+    scan_query: 'CRISIL careers "credit analyst" OR "research analyst" Mumbai OR Bengaluru'
+    enabled: true
+  - name: Moody's
+    careers_url: https://careers.moodys.com
+    scan_method: websearch
+    scan_query: 'site:careers.moodys.com India analyst credit'
+    enabled: true
+  - name: S&P Global
+    careers_url: https://careers.spglobal.com
+    scan_method: websearch
+    scan_query: 'site:careers.spglobal.com India "credit analyst" OR "research"'
+    enabled: true
+  - name: Fitch Ratings
+    careers_url: https://careers.fitch.group
+    scan_method: websearch
+    scan_query: 'Fitch Ratings careers India credit analyst'
+    enabled: true
+  - name: ICRA
+    careers_url: https://www.icra.in/Home/Careers
+    scan_method: websearch
+    scan_query: 'ICRA careers credit rating analyst'
+    enabled: true
+
+  # -- Global banks / IB with large India analyst hubs --
+  - name: JPMorgan Chase
+    careers_url: https://careers.jpmorgan.com/in/en/students/programs
+    scan_method: websearch
+    scan_query: 'site:jpmorganchase.com OR site:careers.jpmorgan.com India "analyst" credit OR finance'
+    enabled: true
+  - name: Morgan Stanley
+    careers_url: https://www.morganstanley.com/careers
+    scan_method: websearch
+    scan_query: 'Morgan Stanley careers India Mumbai Bengaluru analyst finance'
+    enabled: true
+  - name: Citi
+    careers_url: https://jobs.citi.com
+    scan_method: websearch
+    scan_query: 'site:jobs.citi.com India analyst credit OR "investment banking"'
+    enabled: true
+  - name: HSBC
+    careers_url: https://www.hsbc.com/careers
+    scan_method: websearch
+    scan_query: 'HSBC careers India credit analyst OR "financial analyst"'
+    enabled: true
+  - name: Deutsche Bank
+    careers_url: https://careers.db.com
+    scan_method: websearch
+    scan_query: 'site:db.com careers India analyst finance Mumbai OR Pune OR Bengaluru'
+    enabled: true
+  - name: Barclays
+    careers_url: https://search.jobs.barclays
+    scan_method: websearch
+    scan_query: 'Barclays careers India analyst credit OR finance'
+    enabled: true
+  - name: Wells Fargo
+    careers_url: https://www.wellsfargojobs.com
+    scan_method: websearch
+    scan_query: 'site:wellsfargojobs.com India credit analyst OR financial analyst'
+    enabled: true
+  - name: Bank of America
+    careers_url: https://careers.bankofamerica.com
+    scan_method: websearch
+    scan_query: 'Bank of America careers India GBS analyst credit OR finance'
+    enabled: true
+
+  # -- KPO / research outsourcing (heavy analyst hiring) --
+  - name: Acuity Knowledge Partners
+    careers_url: https://www.acuitykp.com/careers/
+    scan_method: websearch
+    scan_query: 'Acuity Knowledge Partners careers investment banking analyst OR credit research'
+    enabled: true
+  - name: Evalueserve
+    careers_url: https://www.evalueserve.com/careers/
+    scan_method: websearch
+    scan_query: 'Evalueserve careers financial research analyst India'
+    enabled: true
+  - name: eClerx
+    careers_url: https://eclerx.com/careers/
+    scan_method: websearch
+    scan_query: 'eClerx careers financial analyst trade lifecycle'
+    enabled: true
+  - name: Wipro (Financial Services)
+    careers_url: https://careers.wipro.com
+    scan_method: websearch
+    scan_query: 'Wipro careers financial research analyst'
+    enabled: true
+
+search_queries:
+  - 'financial analyst Bengaluru site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com'
+  - 'credit analyst India site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com'
+  - 'investment banking analyst India site:job-boards.greenhouse.io OR site:jobs.lever.co'
+  - '"research analyst" finance India site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
