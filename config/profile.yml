@@ -59,12 +59,12 @@ compensation:
   target_range: "₹8-15 LPA"
   currency: "INR"
   minimum: "₹6 LPA"
-  location_flexibility: "Bengaluru preferred; open to Hyderabad, Mumbai, Gurgaon, remote"
+  location_flexibility: "Worldwide — remote, hybrid, or on-site all acceptable; open to relocation"
 
 location:
-  country: "India"
+  country: "India (open to worldwide relocation)"
   city: "Bengaluru"
   timezone: "IST"
-  visa_status: "Indian citizen; no sponsorship needed for India roles"
+  visa_status: "Indian citizen; would need sponsorship for roles outside India"
 
 spend_tier: standard

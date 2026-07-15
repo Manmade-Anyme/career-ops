@@ -29,8 +29,8 @@
 
 ## Location policy
 
-- Best: Bengaluru. Acceptable: Hyderabad, Mumbai, Gurgaon/NCR, Pune, India-remote.
-- International only with visa sponsorship (rare at this level — deprioritize).
+- Worldwide search: remote, hybrid, and on-site are all acceptable.
+- Any country is in scope; for roles outside India, note visa sponsorship as a factor in the report (Indian citizen — sponsorship needed) but do not penalize the score for location.
 
 ## Compensation
 

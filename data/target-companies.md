@@ -1,8 +1,25 @@
-# Target Companies — Financial Research / Financial Analyst / Credit / IB (India)
+# Target Companies — Financial Research / Financial Analyst / Credit / IB (Worldwide)
 
-Compiled 2026-07-15. Application URLs verified via web search; direct live postings are in `data/pipeline.md`.
+Compiled 2026-07-15, updated same day for worldwide scope (remote, hybrid, and on-site all acceptable). Direct live postings are in `data/pipeline.md`.
 
-## Live postings found (apply directly)
+## Live postings — worldwide (apply directly)
+
+| Company | Role | Location | Apply URL |
+|---------|------|----------|-----------|
+| Remote.com | Credit Risk Analyst | Remote (global) | https://job-boards.greenhouse.io/remotecom/jobs/6525116003 |
+| Addepar | Financial Reporting Analyst (FP&A) | Remote | https://job-boards.greenhouse.io/addepar1/jobs/8592961002 |
+| Samsara | Financial Analyst | Remote | https://job-boards.greenhouse.io/samsara/jobs/7819567 |
+| Twilio | Senior Financial Analyst, R&D Finance | Remote | https://job-boards.greenhouse.io/twilio/jobs/7466472 |
+| Rithum | Financial Analyst | Remote | https://job-boards.greenhouse.io/rithum/jobs/7931932 |
+| Pacvue | Senior Financial Analyst | Remote | https://job-boards.greenhouse.io/pacvue/jobs/5978329004 |
+| Pair Team | Senior Financial Analyst | Remote (US) | https://job-boards.greenhouse.io/pairteam/jobs/8417727002 |
+| PerfectServe | Senior Financial Analyst | Remote (US) | https://job-boards.greenhouse.io/perfectserve/jobs/6012313004 |
+| Banner Bank | Credit Analyst | Remote (WA, US) | https://jobs.lever.co/bannerbank/e75e5d0a-f30f-4837-9aee-b304a8b883cc |
+| Momentum | Launch Graduate Program: Financial Analyst | — | https://job-boards.greenhouse.io/momentumcompany3/jobs/8608878002 |
+| Citi | Investment Banking Full-Time Analyst 2026 | New York (on-site) | https://jobs.citi.com/job/new-york/banking-investment-banking-full-time-analyst-new-york-usa-2026/287/84133356032 |
+| Oppenheimer & Co. | Investment Banking Analyst Program | US (on-site) | https://www.oppenheimer.com/careers/banking-analyst-program |
+
+## Live postings — India (apply directly)
 
 | Company | Role | Apply URL |
 |---------|------|-----------|

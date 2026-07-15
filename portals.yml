@@ -32,27 +32,7 @@ title_filter:
     - "Principal"
     - "Staff"
 
-location_filter:
-  always_allow:
-    - "India"
-    - "Bengaluru"
-    - "Bangalore"
-    - "Hyderabad"
-    - "Mumbai"
-    - "Gurgaon"
-    - "Gurugram"
-    - "Noida"
-    - "Pune"
-    - "Chennai"
-  allow:
-    - "Remote"
-    - "India"
-  block:
-    - "United States"
-    - "United Kingdom"
-    - "Germany"
-    - "Singapore"
-    - "Australia"
+# No location filter: worldwide search — remote, hybrid, and on-site all acceptable.
 
 tracked_companies:
   # -- Fintech / financial services with public ATS boards (India presence) --
