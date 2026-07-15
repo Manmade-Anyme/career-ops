@@ -23,3 +23,11 @@ Worldwide postings added 2026-07-15 (remote/hybrid/on-site, any country):
 - https://jobs.lever.co/bannerbank/e75e5d0a-f30f-4837-9aee-b304a8b883cc — Banner Bank, Credit Analyst (WA remote)
 - https://job-boards.greenhouse.io/momentumcompany3/jobs/8608878002 — Momentum, Graduate Financial Analyst
 - https://jobs.citi.com/job/new-york/banking-investment-banking-full-time-analyst-new-york-usa-2026/287/84133356032 — Citi, IB Full-Time Analyst 2026 (NY)
+
+India rescan 2026-07-15 (remote/hybrid/on-site) — new finds:
+
+- https://job-boards.greenhouse.io/phonepe/jobs/6647663003 — PhonePe, Financial Analyst Business Finance (Bengaluru)
+- https://job-boards.greenhouse.io/phonepe/jobs/6668276003 — PhonePe, Finance Analyst Accounting (Bengaluru)
+- https://job-boards.greenhouse.io/arcesiumllc/jobs/5057703007 — Arcesium, Analyst/Sr Analyst Treasury
+- https://jobs.lever.co/dnb/99208662-c93e-4f30-9259-2c005307fb55 — Dun & Bradstreet, Credit Research (Intern)
+- https://job-boards.greenhouse.io/remotecom/jobs/6593548003 — Remote.com, Regulatory Reporting & Credit Risk Analyst (global remote)
